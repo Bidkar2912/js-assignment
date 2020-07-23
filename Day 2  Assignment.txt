@@ -1,0 +1,56 @@
+Question 1: To take input from user and log it in console.
+----> 
+
+Question 2:
+1. Methods of String --->
+ 
+a.charCodeAt(): returns Unicode of the character at the specified index.
+
+b.endswith(): checks whether a string ends with specified string/characters.
+
+c.fromCharCode(): converts Unicode values to characters.
+
+d.includes(): checkes whether a string contains the specified string/characters
+
+e.localeCompare(): compares two strings in the current locale.
+
+f.match(): searches a string for a match against a regular expression, and returns the match.
+
+g.repeat(): returns a new string with a specified number of copies of an existing string.
+
+h.search(): searches a string for a specified value, or reg expression and returns the matched position.
+
+i.slice(): takes a part of string and returns new string.
+
+j.substr(): extracts the characters from a string, beginning at a specified start position, and through the specified number of character.
+
+k.trim(): removes whitespace from both ends of a string.
+
+l.toString(): returns the value of a String object.
+
+m.valueOf(): returns the primitive value of a String object.
+
+2.Methods of Array --->
+
+a.copyWithin(): copies array elements within the array, to and from specified positions.
+
+b.entries(): returns a key/value pair Array iteration object.
+
+c.every(): checks if every element in an array pass a test.
+
+d.fill(): fill the elements in an array with a static value.
+
+e.from(): creates an array from an object.
+
+f.splice(): add or remove elements from array.
+
+g.some(): check if any element in an array pass a test.
+
+h.map(): creates a new array with the result of calling a function for each array element.
+
+i.valueOf(): returns the primitive value of an array.
+
+j.sort(): sort the elements of an array.
+
+
+
