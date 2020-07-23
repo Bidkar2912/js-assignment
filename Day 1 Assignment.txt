@@ -1,0 +1,68 @@
+1. Various methods in console function:
+---> The various methods of console function are:
+       a) log() : We can give any datatype inside the log(), be it a string, array,object,boolean,etc. 
+Example: console.log('abc');  
+         console.log(1); 
+         console.log(true); 
+         console.log(null); 
+         console.log(undefined);  
+         console.log([1, 2, 3, 4]); // array inside log 
+         console.log({a:1, b:2, c:3}); // object inside log
+       
+       b)error(): It is used to log error message to console. Used to test the code. 
+Example:  console.error(" I am an error");
+ 
+       c)warn(): This method is used to log warning message to console. 
+Example: console.warn("Its a warning!!");
+
+       d)clear(): This method is used to clear the console. 
+Example: console.clear();
+
+       e)time() and timeEnd(): This method is used when we want to know the amount of time by a block or a function.
+Example: console.time('abc');  // Output--> abc: 1ms
+
+       d)table(): This method allows to create a table inside a console. Here the input must be an array or an object which wil be shown as table.
+Example: console.table({'shreeya': 1, 'shradha': 2});
+
+       e)count(): This method is used to count the number the loop or say function gives.
+Example: for(i=0; i<5; i++){
+            console.count(i);
+         }
+       f)group() and groupEnd(): Allow to group the contents in a separate block,which will be indented.
+Example: console.group('Methods in console'); 
+         console.warn('warning!'); 
+         console.error('error !!'); 
+         console.log('time!'); 
+         console.groupEnd('Methods in console'); 
+console.log('Javascript');
+
+
+2.  Difference between var, let and const
+----> 
+ a. var: var declarations are globally scoped or function scoped. Can be updated and declared again within its scope.
+ b. let: Block scoped variables. Can be updated but cannot be declared again. 
+ c. const: Block scoped variables. Neither can be updated nor can be declared again.
+         
+3. Datatypes in Javascript:
+----> a. String: A string is a set of characters like "Shreeya". Denoted within quotes and can have single or double quotes. 
+We can concatenate two strings using + operator.
+
+b. Number: Javascript has only one type of numbers. They can be written with or without decimals.
+
+c. Booleans: Booleans can have only two values either true or false. Often used in conditional testing.
+
+d. Arrays: Arrays are written with square [] brackets. The items are separated with commas. Arrays indexes are zero-based, which means the first item is as [0] position, second on [1], and so on.
+
+e. Objects: Objects are written within curly {} braces. Object properties are name:value pair which are separated by commas.
+
+f.typeof Operator: typeof operator is used to find the type of variable. typeof operator returns the type of variable or an expression.
+
+g.Undefined: A variable without a value has value undefined. The type is also undefined. 
+Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
+
+h.Empty values: An empty string has both a legal value and a type. For ex: 
+var city= "";
+
+i.Null: Null is nothing. It is assumed to be something that does not exist. The data type of null is an object. It can be considered as a bug in javascript.
+
+ 
